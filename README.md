@@ -5,10 +5,6 @@ Este projeto contém os requisitos realizados por _[Anna Beatriz Garcia Trajano 
 
 Neste projeto criei soluções envolvendo os principais comandos e conceitos iniciais do SQL!
 
-Para isto, utilizei uma série de comandos do Docker com diferentes níveis de complexidade.
-
-Além disso, temos uma aplicação full-stack neste repositório: um aplicativo de tarefas!
-
 ## Instalação do projeto localmente:
  
 Após cada um dos passos, haverá um exemplo do comando a ser digitado para fazer o que está sendo pedido, caso tenha dificuldades e o exemplo não seja suficiente, não hesite em me contatar em _annagarcia@id.uff.br_ 
