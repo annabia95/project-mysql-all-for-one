@@ -1,7 +1,7 @@
 
 Este projeto contém os requisitos realizados por _[Anna Beatriz Garcia Trajano de Sá](www.linkedin.com/in/anna-beatriz-trajano-de-sá)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-# Project Mysql - All for One
+# Project MySQL - All for One
 
 Neste projeto criei soluções envolvendo os principais comandos e conceitos iniciais do SQL!
 
