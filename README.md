@@ -24,16 +24,19 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
   git clone git@github.com:annabia95/project-docker-todo-list.git
 ```
 
-3. Acesse o diretório do projeto e depois utilize o comando **npm i** na pasta de back-end e front-end para instalar todas as dependências necessárias:
+3. Acesse o diretório do projeto e depois utilize o comando **npm i** para instalar todas as dependências necessárias:
 ```javascript
-  cd project-docker-todo-list
+  cd project-mysql-all-for-one
   npm i
 ```
 
-4. Por último, rode o comando **npm start** na pasta de back-end e front-end e acesse o projeto via browser, no caminho `http://localhost:3000/project-docker-todo-list`.
-
+- ✨ **Dica:** Caso queira utilizar _Docker_ para rodar os testes localmente e validar as queries criadas, basta executar o comando:
 ```javascript
-  npm start
+docker run -p 3306:3306 --name mysql_57 -e MYSQL_ROOT_PASSWORD=1234 -d mysql:5.7 mysqld --default-authentication-plugin=mysql_native_password
+```
+- Depois de usar o comando acima, agora basta executar os testes digitando no terminal:
+```javascript
+MYSQL_USER=root MYSQL_PASSWORD=1234 HOSTNAME=localhost npm test
 ```
 
 ## Habilidades Desenvolvidas
